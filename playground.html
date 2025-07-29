@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playground</title>
+    <link rel="stylesheet" href="playground.css">
+</head>
+
+<body>
+
+    <h2>CSS Playground (Drag & Drop + Custom Values)</h2>
+
+    <div class="toolbox" id="toolbox">
+        <div class="block" draggable="true" data-prop="padding">Padding</div>
+        <div class="block" draggable="true" data-prop="margin">Margin</div>
+        <div class="block" draggable="true" data-prop="font-size">Font Size</div>
+        <div class="block" draggable="true" data-prop="color">Color</div>
+        <div class="block" draggable="true" data-prop="background-color">Background</div>
+        <div class="block" draggable="true" data-prop="border-radius">Border Radius</div>
+        <div class="block" draggable="true" data-prop="cursor">cursor</div>
+        <div class="block" draggable="true" data-prop="min-width">minimal width</div>
+        <div class="block" draggable="true" data-prop="min-height">minimal height</div>
+        <div class="block" draggable="true" data-prop="border-end-start-radius">border end start radius</div>
+        <div class="block" draggable="true" data-prop="border-end-end-radius">border end end radius</div>
+        <div class="block" draggable="true" data-prop="border-start-start-radius">border start start radius</div>
+        <div class="block" draggable="true" data-prop="border-start-end-radius">border start end radius</div>
+        <div class="block" draggable="true" data-prop="transition">transition</div>
+        <div class="block" draggable="true" data-prop="border-top-left-radius">border top left radius</div>
+        <div class="block" draggable="true" data-prop="border-top-right-radius">border top right radius</div>
+        <div class="block" draggable="true" data-prop="border-bottom-left radius">border bottom left radius</div>
+        <div class="block" draggable="true" data-prop="border-bottom-right-radius">border bottom right radius</div>
+        <div class="block" draggable="true" data-prop="padding-left">padding left</div>
+        <div class="block" draggable="true" data-prop="padding-right">padding right</div>
+        <div class="block" draggable="true" data-prop="box shadow">box shadow</div>
+        <div class="block" draggable="true" data-prop="text-shadow">text shadow</div>
+        <div class="block" draggable="true" data-prop="border">border</div>
+        <div class="block" draggable="true" data-prop="transition-duration">transition duration</div>
+        <div class="block" draggable="true" data-prop="border-color">border color</div>
+        <div class="block" draggable="true" data-prop="font-family">font-family</div>
+        <div class="block" draggable="true" data-prop=""></div>
+        <div class="block" draggable="true" data-prop=""></div>
+    </div>
+
+    <h3>Drop your styles here:</h3>
+    <div class="dropzone" id="dropzone"></div>
+
+    <h3>Live Preview</h3>
+    <button id="preview">Click me</button>
+
+    <h3>Generated CSS</h3>
+    <pre><code id="output"></code></pre>
+
+    <script src="playground.js"></script>
+</body>
+
+</html>
