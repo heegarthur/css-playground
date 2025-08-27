@@ -2,7 +2,7 @@
 easy css to understand how it works
 
 demo website: 
-(demo)[https://heegarthur.github.io/css-playground/]
+[demo](https://heegarthur.github.io/css-playground/)
 
 
 ---
